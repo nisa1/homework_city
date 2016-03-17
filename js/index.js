@@ -15,7 +15,7 @@ console.log("hi!");
     resetBody();
     
     //if the user inputs SF/San Francisco/Bay Area change the css class to "sf"
-    if (city === "SF" || city === "San Francisco" || city === "Bay Area") {
+    if (city === "sf" || city === "san francisco" || city === "bay area") {
         $("body").addClass("sf");
     }
     
@@ -42,7 +42,7 @@ console.log("hi!");
 }
 
 function resetBody() {
-    $("body").removeClass("nyc sf austin la sydney");
+    $("body").removeClass("sf nyc la austin sydney");
 }
 
 }

@@ -123,11 +123,11 @@ header {
   background: #fff600;
 }
 
-.nyc {
-  background-image: url(../images/nyc.jpg);
-}
 .sf {
   background-image: url(../images/sf.jpg);
+}
+.nyc {
+  background-image: url(../images/nyc.jpg);
 }
 .la {
   background-image: url(../images/la.jpg);
